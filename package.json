@@ -1,0 +1,21 @@
+{
+  "name": "pluralsight-npm",
+  "version": "1.0.0",
+  "description": "Learning npm advanced topics",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matt Herich <mjherich@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.0.0-alpha.8",
+    "hello-mars": "gist:58e5dfc62489a5a288de",
+    "npm-gist-package": "gist:dd8bfc80846bd018ef4317f64c782713"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2"
+  }
+}
