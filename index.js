@@ -1,5 +1,4 @@
-const test = 'This is a test';
+// Import using commonJS require
+const gist = require('npm-gist-package');
 
-let poop = 9;
-
-console.log(poop, test);
+gist();
